@@ -1,0 +1,63 @@
+{
+  "name": "t:sections.footer-group.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-0": {
+          "type": "link_list",
+          "settings": {
+            "heading": "USEFUL links",
+            "menu": "footer"
+          }
+        },
+        "footer-1": {
+          "type": "link_list",
+          "settings": {
+            "heading": "information",
+            "menu": "information"
+          }
+        },
+        "footer-2": {
+          "type": "link_list",
+          "settings": {
+            "heading": "customer service",
+            "menu": "customer"
+          }
+        }
+      },
+      "block_order": [
+        "footer-0",
+        "footer-1",
+        "footer-2"
+      ],
+      "custom_css": [
+        ".footer {background-image: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0841\/8371\/2050\/files\/Vector_4.png?v=1700204535');}"
+      ],
+      "settings": {
+        "show_divider": true,
+        "newsletter_enable": true,
+        "newsletter_heading": "Exclusive benefits",
+        "newsletter_text": "<p>Apply for our free membership to receive exclusive deals, news, and events.<\/p>",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "social_heading": "",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": false,
+        "copyright_text": "All rights reserved.",
+        "colors_text": "#42474c",
+        "colors_heading": "#6b7177",
+        "colors_link": "#212326",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#ffffff",
+        "gradient_background": ""
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
